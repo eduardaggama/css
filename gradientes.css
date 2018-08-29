@@ -1,0 +1,33 @@
+#grad {
+    background: -webkit-linear-gradient(red, yellow); 
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow);
+    background: linear-gradient(red, yellow);
+background:red;
+}
+
+#grad-right {
+  background: -webkit-linear-gradient(left, red , yellow);
+  background: -o-linear-gradient(right, red, yellow);
+  background: -moz-linear-gradient(right, red, yellow); 
+  background: linear-gradient(to right, red , yellow);
+background:red;
+}
+
+#grad-diag {
+  background: -webkit-linear-gradient(left top, red, yellow);
+  background: -o-linear-gradient(bottom right, red, yellow);
+  background: -moz-linear-gradient(bottom right, red, yellow);
+  background: linear-gradient(to bottom right, red, yellow);
+background:red;
+}
+
+
+#grad-left {
+
+  background: -webkit-linear-gradient(-90deg, red, yellow);
+  background: -o-linear-gradient(-90deg, red, yellow);
+  background: -moz-linear-gradient(-90deg, red, yellow);
+  background: linear-gradient(-90deg, red, yellow);
+background:red;
+}
